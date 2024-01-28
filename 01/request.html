@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оставить заявку</title>
+    <link rel="stylesheet" href="style/style.css">
+
 </head>
 <body>
-    <a href="index.html">Главная</a>
-    <a href="info/about.html">Обо мне</a>
-    <a href="#">Оставить заявку</a>
-    <a href="catalog/catalog.html">Каталог</a>
+    <a class ="menu_links" href="index.html">Главная</a>
+    <a class ="menu_links" href="info/about.html">Обо мне</a>
+    <a class ="menu_links" href="#">Оставить заявку</a>
+    <a class ="menu_links" href="catalog/catalog.html">Каталог</a>
 
-    <h1>Оставить заявку</h1>
+    <h1 class="title">Оставить заявку</h1>
 
-    <form action="#" method="post">
-        <span>Ваше имя: </span><input type="text" placeholder="Введите ваше имя здесь" id="name" name="name"><br>
-        <span>Ваш почтовый ящик: </span><input type="email" placeholder="Введите ваш почтовый ящик здесь" id="email" name="email"><br>
-        <button type="submit">Отправить</button>
-        <button type="reset">Очистить форму</button>
+    <form class="form" action="#" method="post">
+        <span>Ваше имя: </span><input  class="input" type="text" placeholder="Введите ваше имя здесь" id="name" name="name"><br>
+        <span>Ваш почтовый ящик: </span><input  class="input" type="email" placeholder="Введите ваш почтовый ящик здесь" id="email" name="email"><br>
+        <button class="btn" type="submit">Отправить</button>
+        <button class="btn" type="reset">Стереть</button>
     </form>
 </body>
 </html>
