@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #020a18;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 22px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #060c1a;
+
+}
+
+header .header_menu_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+    height: 100%;
+}
+
+header .header_menu_container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.content {
+    width: 1146px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.content .rocket {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    /* flex-wrap: wrap; */
+}
+
+.content .rocket .content_text {
+    width: 100%;
+
+}
+.content .rocket .content_text h4{
+    color: #3A68B8;
+    text-transform: uppercase;
+}
+
+.content .rocket .content_text h1{
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.content .rocket .content_text p {
+    padding-top: 40px;
+    color: gray;
+}
+
+.content .rocket .content_text .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    padding-top: 40px;
+}
+
+.content .rocket .content_text .buttons button {
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    border: 0cap;
+    background-color: #3A68B8;
+    color: white;
+    font-size: 20px;
+}
+
+.content .rocket .content_text .buttons button svg {
+    padding: 0 10px 0 0;
+    width: 15px;
+    height: 15px;
+}
+
+.content .rocket .content_img img {
+    width: 414px;
+    height: 415px;
+}
+
+.content .logos {
+    width: 100%;
+    padding-top: 197px;
+    padding-bottom: 200px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
